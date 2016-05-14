@@ -4,6 +4,12 @@ $navyBlue: #003b74;
 body {
     background: #fff;
 }
+.btn-floating {
+    background-color: $navyBlue;
+    &:hover {
+        background-color: $navyBlue;
+    }
+}
 .section.hero {
     width: 90%;
     margin-left: auto;
