@@ -1,0 +1,118 @@
+// bower:scss
+// endbower
+$navyBlue: #003b74;
+body {
+    background: #fff;
+}
+.section.hero {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 150px;
+    .logo-section {
+        padding-top: 80px;
+        h5 {
+            color: $navyBlue;
+            font-weight: 500;
+            margin: 0;
+            text-transform: uppercase;
+            padding-left: 8px;
+            font-size: 1.3rem;
+        }
+    }
+}
+.section.realtime {
+    h5 {
+        text-transform: uppercase;
+        font-weight: 500;
+        color: $navyBlue;
+        margin-bottom: 48px;
+    }
+    p {
+        margin-top: 24px;
+    }
+}
+.section.responsive{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    h5 {
+        color: $navyBlue;
+        text-transform: uppercase;
+        margin-bottom: 48px;
+    }
+    h6 {
+        color: $navyBlue;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    .box {
+        padding: 24px;
+        margin-top: 24px;
+        border: 1px solid $navyBlue;
+        border-radius: 2px;
+        
+    }
+}
+.section.webapp{
+    margin-top: 48px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    h5 {
+        color: $navyBlue;
+        text-transform: uppercase;
+        margin-bottom: 48px;
+    }
+    h6 {
+        color: $navyBlue;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    .text{
+        padding-top: 48px;
+    }
+}
+.section.devices{
+    h5{
+        color: $navyBlue;
+        text-transform: uppercase;
+        margin-bottom: 48px;
+    }
+}
+.page-footer{
+    background-color: transparent!important;
+    .container {
+        padding-bottom: 36px;
+    }
+    .footer-copyright{
+        background-color: $navyBlue!important;
+    }
+    .footer-logo {
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    h5{
+        color: $navyBlue;
+        text-transform: uppercase;
+        margin-top: 36px;
+        span {
+            border-bottom: 3px solid $navyBlue;
+        }
+    }
+    h6 {
+        color: $navyBlue;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    .email-wrapper{
+        font-style: normal;
+    }
+}
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
