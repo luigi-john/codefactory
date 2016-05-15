@@ -4,7 +4,9 @@
   "dependencies": {
     "jquery": "~2.1.1",
     "modernizr": "~2.8.1",
-    "Materialize": "materialize#^0.97.6"
+    "Materialize": "materialize#^0.97.6",
+    "animate.css": "^3.5.1",
+    "wow": "wow.js#^1.1.2"
   },
   "devDependencies": {
     "chai": "^3.5.0",
