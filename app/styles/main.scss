@@ -86,10 +86,8 @@ body {
 }
 .page-footer {
     background-color: transparent!important;
-    .container {
-        padding-bottom: 36px;
-    }
     .footer-copyright {
+        margin-top: 36px;
         background-color: $navyBlue!important;
     }
     .footer-logo {
@@ -126,11 +124,12 @@ body {
             padding-top: 0px;
         }
     }
-    .footer {
+    .page-footer {
         .footer-copyright{
             padding-top: 12px;
             padding-bottom: 12px;
-            line-height: inherit;   
+            height: auto!important;
+            line-height: inherit!important;   
         }
     }
 }
