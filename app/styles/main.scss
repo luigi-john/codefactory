@@ -114,6 +114,10 @@ body {
 }
 @media screen and (max-width: 600px) {
     .section.hero {
+        min-height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
         padding-top: 24px;
     }
     .responsive-main {
