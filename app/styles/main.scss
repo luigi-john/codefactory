@@ -38,7 +38,7 @@ body {
         margin-top: 24px;
     }
 }
-.section.responsive{
+.section.responsive {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -57,11 +57,9 @@ body {
         margin-top: 24px;
         border: 1px solid #1e88e5;
         border-radius: 2px;
-        
     }
 }
-.section.webapp{
-    margin-top: 48px;
+.section.webapp {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -75,23 +73,23 @@ body {
         font-weight: 500;
         text-transform: uppercase;
     }
-    .text{
+    .text {
         padding-top: 48px;
     }
 }
-.section.devices{
-    h5{
+.section.devices {
+    h5 {
         color: $navyBlue;
         text-transform: uppercase;
         margin-bottom: 48px;
     }
 }
-.page-footer{
+.page-footer {
     background-color: transparent!important;
     .container {
         padding-bottom: 36px;
     }
-    .footer-copyright{
+    .footer-copyright {
         background-color: $navyBlue!important;
     }
     .footer-logo {
@@ -99,7 +97,7 @@ body {
         margin-left: auto;
         margin-right: auto;
     }
-    h5{
+    h5 {
         color: $navyBlue;
         text-transform: uppercase;
         margin-top: 36px;
@@ -112,13 +110,27 @@ body {
         font-weight: 500;
         text-transform: uppercase;
     }
-    .email-wrapper{
+    .email-wrapper {
         font-style: normal;
     }
 }
-.browserupgrade {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
+@media screen and (max-width: 600px) {
+    .section.hero {
+        padding-top: 24px;
+    }
+    .responsive-main {
+        margin-bottom: 24px;
+    }
+    .section.webapp {
+        .text {
+            padding-top: 0px;
+        }
+    }
+    .footer {
+        .footer-copyright{
+            padding-top: 12px;
+            padding-bottom: 12px;
+            line-height: inherit;   
+        }
+    }
 }
