@@ -4,6 +4,9 @@ $navyBlue: #003b74;
 body {
     background: #fff;
 }
+.hidden {
+    visibility: hidden!important; 
+}
 .btn-floating {
     background-color: $navyBlue;
     &:hover {
